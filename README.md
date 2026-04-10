@@ -62,6 +62,7 @@ During the development of the PCB and mechanical integration, several adjustment
 *   **Accessibility:** All test pads were placed near the edges of the PCB so they can be reached easily with probes even when the display is mounted.
 *   **GND & Thermal Management:** I applied a copper pour on the Top Layer with **via stitching** to the internal Ground Plane.
 *   **Antenna Safety:** The antenna keepout zone follows the datasheet dimensions exactly. I also added **via fencing** around the keepout area to minimize interference with the rest of the components.
+*   **Manufacturing Files**: CPL and BOM files are provided in JLCPCB standard format.
 
 ## Bill of Materials (BOM)
 
