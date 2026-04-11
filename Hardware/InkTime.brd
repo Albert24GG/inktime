@@ -46,9 +46,9 @@
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
@@ -56,26 +56,26 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
@@ -213,8 +213,8 @@
 <layer number="251" name="SMDround" color="7" fill="1" visible="no" active="yes"/>
 <layer number="252" name="BR-BS" color="7" fill="1" visible="no" active="no"/>
 <layer number="253" name="Extra" color="7" fill="1" visible="no" active="no"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -2222,7 +2222,6 @@ IPC Nominal Density</description>
 <attribute name="MOUSER_PART_NUMBER" value="609-2450AT18B100E" x="19" y="-14.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Johanson-Technology/2450AT18B100E?qs=yCnrNFeXz%252Bh5MFsFIXGZGA%3D%3D" x="19" y="-14.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="16.7" y="-13.8" size="1" layer="25" rot="R270" align="center"/>
-<attribute name="VALUE" x="18.8" y="-14" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="C1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="GRM011R60J152KE01L_2_CAPC0201X13N" value="12pF" x="16.65" y="-2.2" smashed="yes" grouprefs="MCU">
 <attribute name="AVAILABILITY" value="In Stock" x="16.65" y="-2.2" size="1.778" layer="27" display="off"/>
@@ -2233,10 +2232,8 @@ IPC Nominal Density</description>
 <attribute name="PACKAGE" value="0201 Murata" x="16.65" y="-2.2" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="16.65" y="-2.2" size="1.778" layer="27" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="16.65" y="-2.2" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="16.1" y="-2.62" size="0.5" layer="27" align="top-left"/>
 </element>
 <element name="C1-EP-DR" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="NORDIC_NRF_3_RESC0603_N" value="10uF/25V" x="-3.1" y="-1.3" smashed="yes">
-<attribute name="VALUE" x="-3.735" y="-2.705" size="0.8128" layer="27" ratio="10"/>
 </element>
 <element name="C10" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="GRM011R60J152KE01L_2_CAPC0201X13N" value="N.C." x="18.2" y="-1.6" smashed="yes" rot="R270" grouprefs="MCU">
 <attribute name="AVAILABILITY" value="In Stock" x="18.2" y="-1.6" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2247,7 +2244,6 @@ IPC Nominal Density</description>
 <attribute name="PACKAGE" value="0201 Murata" x="18.2" y="-1.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PRICE" value="None" x="18.2" y="-1.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="18.2" y="-1.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="17.78" y="-1.05" size="0.5" layer="27" rot="R270" align="top-left"/>
 </element>
 <element name="C11" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="GRM011R60J152KE01L_2_CAPC0201X13N" value="100pF" x="16.65" y="-3" smashed="yes" rot="R180" grouprefs="MCU">
 <attribute name="AVAILABILITY" value="In Stock" x="16.65" y="-3" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2258,7 +2254,6 @@ IPC Nominal Density</description>
 <attribute name="PACKAGE" value="0201 Murata" x="16.65" y="-3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PRICE" value="None" x="16.65" y="-3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="16.65" y="-3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="17.2" y="-2.58" size="0.5" layer="27" rot="R180" align="top-left"/>
 </element>
 <element name="C12" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="GRM011R60J152KE01L_2_CAPC0201X13N" value="100nF" x="14.6" y="-1" smashed="yes" rot="R270" grouprefs="MCU">
 <attribute name="AVAILABILITY" value="In Stock" x="14.6" y="-1" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2269,13 +2264,10 @@ IPC Nominal Density</description>
 <attribute name="PACKAGE" value="0201 Murata" x="14.6" y="-1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PRICE" value="None" x="14.6" y="-1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="14.6" y="-1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="14.18" y="-0.45" size="0.5" layer="27" rot="R270" align="top-left"/>
 </element>
 <element name="C14" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="PERFECT_0402_0402" value="4.7uF" x="8.8" y="0" smashed="yes" rot="R90" grouprefs="MCU">
-<attribute name="VALUE" x="10.205" y="-0.635" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C15" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="PERFECT_0402_0402" value="1uF" x="12.5" y="0.35" smashed="yes" grouprefs="MCU">
-<attribute name="VALUE" x="11.865" y="-1.055" size="0.8128" layer="27" ratio="10"/>
 </element>
 <element name="C16" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="GRM011R60J152KE01L_2_CAPC0201X13N" value="47nF" x="12" y="-0.55" smashed="yes" rot="R180" grouprefs="MCU">
 <attribute name="AVAILABILITY" value="In Stock" x="12" y="-0.55" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2286,7 +2278,6 @@ IPC Nominal Density</description>
 <attribute name="PACKAGE" value="0201 Murata" x="12" y="-0.55" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PRICE" value="None" x="12" y="-0.55" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="12" y="-0.55" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="12.55" y="-0.13" size="0.5" layer="27" rot="R180" align="top-left"/>
 </element>
 <element name="C17" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="GRM011R60J152KE01L_2_CAPC0201X13N" value="12pF" x="5.2" y="-2.5" smashed="yes" rot="R90" grouprefs="MCU">
 <attribute name="AVAILABILITY" value="In Stock" x="5.2" y="-2.5" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2297,7 +2288,6 @@ IPC Nominal Density</description>
 <attribute name="PACKAGE" value="0201 Murata" x="5.2" y="-2.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="5.2" y="-2.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="5.2" y="-2.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="5.62" y="-3.05" size="0.5" layer="27" rot="R90" align="top-left"/>
 </element>
 <element name="C18" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="GRM011R60J152KE01L_2_CAPC0201X13N" value="12pF" x="5.2" y="-4.5" smashed="yes" rot="R270" grouprefs="MCU">
 <attribute name="AVAILABILITY" value="In Stock" x="5.2" y="-4.5" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2308,7 +2298,6 @@ IPC Nominal Density</description>
 <attribute name="PACKAGE" value="0201 Murata" x="5.2" y="-4.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PRICE" value="None" x="5.2" y="-4.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="5.2" y="-4.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="4.78" y="-3.95" size="0.5" layer="27" rot="R270" align="top-left"/>
 </element>
 <element name="C19" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="GRM011R60J152KE01L_2_CAPC0201X13N" value="100nF" x="2.33" y="-8.55" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="In Stock" x="2.33" y="-8.55" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2319,7 +2308,6 @@ IPC Nominal Density</description>
 <attribute name="PACKAGE" value="0201 Murata" x="2.33" y="-8.55" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PRICE" value="None" x="2.33" y="-8.55" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="2.33" y="-8.55" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="1.91" y="-8" size="0.5" layer="27" rot="R270" align="top-left"/>
 </element>
 <element name="C2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="GRM011R60J152KE01L_2_CAPC0201X13N" value="12pF" x="14.8" y="0.5" smashed="yes" rot="R90" grouprefs="MCU">
 <attribute name="AVAILABILITY" value="In Stock" x="14.8" y="0.5" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2330,16 +2318,12 @@ IPC Nominal Density</description>
 <attribute name="PACKAGE" value="0201 Murata" x="14.8" y="0.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="14.8" y="0.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="14.8" y="0.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="15.22" y="-0.05" size="0.5" layer="27" rot="R90" align="top-left"/>
 </element>
 <element name="C2-EP-DR" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="PERFECT_0402_0402" value="4.7uF/25V" x="-2.2" y="-7.8" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-0.795" y="-8.435" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C20" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="PERFECT_0402_0402" value="4.7uF" x="8.1" y="-9.8" smashed="yes" rot="R90" grouprefs="MCU">
-<attribute name="VALUE" x="9.505" y="-10.435" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C21" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="PERFECT_0402_0402" value="4.7uF" x="9.6" y="-10.6" smashed="yes" rot="R270" grouprefs="MCU">
-<attribute name="VALUE" x="8.195" y="-9.965" size="0.8128" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C22" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="GRM011R60J152KE01L_2_CAPC0201X13N" value="N.C." x="19.78" y="-9.5" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="In Stock" x="19.78" y="-9.5" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2350,7 +2334,6 @@ IPC Nominal Density</description>
 <attribute name="PACKAGE" value="0201 Murata" x="19.78" y="-9.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PRICE" value="None" x="19.78" y="-9.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="19.78" y="-9.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="20.33" y="-9.08" size="0.5" layer="27" rot="R180" align="top-left"/>
 </element>
 <element name="C23" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="GRM011R60J152KE01L_2_CAPC0201X13N" value="100nF" x="-5.9" y="13" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="In Stock" x="-5.9" y="13" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2361,14 +2344,11 @@ IPC Nominal Density</description>
 <attribute name="PACKAGE" value="0201 Murata" x="-5.9" y="13" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="-5.9" y="13" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="-5.9" y="13" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="-5.48" y="12.45" size="0.5" layer="27" rot="R90" align="top-left"/>
 </element>
 <element name="C24" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="PERFECT_0402_0402" value="10uF" x="-5.9" y="14.6" smashed="yes" rot="R270">
-<attribute name="VALUE" x="-7.305" y="15.235" size="0.8128" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C25" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="NORDIC_NRF_3_RESC0603_N" value="22uF" x="-11.5" y="12.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="-11.865" y="11.135" size="0.254" layer="25" ratio="10"/>
-<attribute name="VALUE" x="-12.905" y="13.035" size="0.8128" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C27" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="GRM011R60J152KE01L_2_CAPC0201X13N" value="100nF" x="17.4" y="9.1" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="17.4" y="9.1" size="1.778" layer="27" display="off"/>
@@ -2379,10 +2359,8 @@ IPC Nominal Density</description>
 <attribute name="PACKAGE" value="0201 Murata" x="17.4" y="9.1" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="17.4" y="9.1" size="1.778" layer="27" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="17.4" y="9.1" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="16.85" y="8.68" size="0.5" layer="27" align="top-left"/>
 </element>
 <element name="C29" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="PERFECT_0402_0402" value="1uF" x="7.9" y="-14.8" smashed="yes" rot="R90">
-<attribute name="VALUE" x="8.32" y="-15.35" size="0.5" layer="27" rot="R90" align="top-left"/>
 </element>
 <element name="C3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="GRM011R60J152KE01L_2_CAPC0201X13N" value="1pF" x="17.82" y="-8.7" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="17.82" y="-8.7" size="1.778" layer="27" display="off"/>
@@ -2393,19 +2371,14 @@ IPC Nominal Density</description>
 <attribute name="PACKAGE" value="0201 Murata" x="17.82" y="-8.7" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="17.82" y="-8.7" size="1.778" layer="27" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="17.82" y="-8.7" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="17.27" y="-9.12" size="0.5" layer="27" align="top-left"/>
 </element>
 <element name="C30" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="PERFECT_0402_0402" value="1uF" x="-13.95" y="-14.7" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-13.53" y="-15.25" size="0.5" layer="27" rot="R90" align="top-left"/>
 </element>
 <element name="C31" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="PERFECT_0402_0402" value="1uF" x="-2.95" y="-14.7" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-2.53" y="-15.25" size="0.5" layer="27" rot="R90" align="top-left"/>
 </element>
 <element name="C32" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="PERFECT_0402_0402" value="1uF" x="-17.9" y="8.2" smashed="yes">
-<attribute name="VALUE" x="-18.535" y="6.795" size="0.8128" layer="27" ratio="10"/>
 </element>
 <element name="C33" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="NORDIC_NRF_3_RESC0603_N" value="22uF" x="-13.05" y="12.4" smashed="yes" rot="R270">
-<attribute name="VALUE" x="-14.455" y="13.035" size="0.8128" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C34" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="GRM011R60J152KE01L_2_CAPC0201X13N" value="100nF" x="-17.7" y="11.2" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="In Stock" x="-17.7" y="11.2" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2416,16 +2389,12 @@ IPC Nominal Density</description>
 <attribute name="PACKAGE" value="0201 Murata" x="-17.7" y="11.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PRICE" value="None" x="-17.7" y="11.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="-17.7" y="11.2" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="-17.15" y="11.62" size="0.5" layer="27" rot="R180" align="top-left"/>
 </element>
 <element name="C37" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="PERFECT_0402_0402" value="1uF" x="21.2" y="11.8" smashed="yes">
-<attribute name="VALUE" x="20.565" y="10.395" size="0.8128" layer="27" ratio="10"/>
 </element>
 <element name="C38" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="PERFECT_0402_0402" value="1uF" x="16.4" y="13.6" smashed="yes" rot="R270">
-<attribute name="VALUE" x="14.995" y="14.235" size="0.8128" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C39" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="NORDIC_NRF_3_RESC0603_N" value="10uF/25V" x="17.2" y="15.6" smashed="yes">
-<attribute name="VALUE" x="16.565" y="14.195" size="0.8128" layer="27" ratio="10"/>
 </element>
 <element name="C4" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="GRM011R60J152KE01L_2_CAPC0201X13N" value="1pF" x="17.82" y="-9.5" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="17.82" y="-9.5" size="1.778" layer="27" display="off"/>
@@ -2436,7 +2405,6 @@ IPC Nominal Density</description>
 <attribute name="PACKAGE" value="0201 Murata" x="17.82" y="-9.5" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="17.82" y="-9.5" size="1.778" layer="27" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="17.82" y="-9.5" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="17.27" y="-9.92" size="0.5" layer="27" align="top-left"/>
 </element>
 <element name="C42" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="GRM011R60J152KE01L_2_CAPC0201X13N" value="100nF" x="3" y="10" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="3" y="10" size="1.778" layer="27" display="off"/>
@@ -2447,10 +2415,8 @@ IPC Nominal Density</description>
 <attribute name="PACKAGE" value="0201 Murata" x="3" y="10" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="3" y="10" size="1.778" layer="27" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="3" y="10" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="2.45" y="9.58" size="0.5" layer="27" align="top-left"/>
 </element>
 <element name="C43" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="PERFECT_0402_0402" value="4.7uF" x="4.6" y="8.7" smashed="yes">
-<attribute name="VALUE" x="3.965" y="7.295" size="0.8128" layer="27" ratio="10"/>
 </element>
 <element name="C5" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="GRM011R60J152KE01L_2_CAPC0201X13N" value="100nF" x="8.5" y="-2.6" smashed="yes" rot="R270" grouprefs="MCU">
 <attribute name="AVAILABILITY" value="In Stock" x="8.5" y="-2.6" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2461,10 +2427,8 @@ IPC Nominal Density</description>
 <attribute name="PACKAGE" value="0201 Murata" x="8.5" y="-2.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PRICE" value="None" x="8.5" y="-2.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="8.5" y="-2.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="8.08" y="-2.05" size="0.5" layer="27" rot="R270" align="top-left"/>
 </element>
 <element name="C6" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="PERFECT_0402_0402" value="4.7uF" x="7.9" y="-7.4" smashed="yes" rot="R180" grouprefs="MCU">
-<attribute name="VALUE" x="8.535" y="-5.995" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C7" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="GRM011R60J152KE01L_2_CAPC0201X13N" value="100nF" x="12.75" y="-10.05" smashed="yes" rot="R90" grouprefs="MCU">
 <attribute name="AVAILABILITY" value="In Stock" x="12.75" y="-10.05" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2475,7 +2439,6 @@ IPC Nominal Density</description>
 <attribute name="PACKAGE" value="0201 Murata" x="12.75" y="-10.05" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="12.75" y="-10.05" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="12.75" y="-10.05" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="13.17" y="-10.6" size="0.5" layer="27" rot="R90" align="top-left"/>
 </element>
 <element name="C8" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="GRM011R60J152KE01L_2_CAPC0201X13N" value="100nF" x="16.5" y="-9" smashed="yes" rot="R180" grouprefs="MCU">
 <attribute name="AVAILABILITY" value="In Stock" x="16.5" y="-9" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2486,7 +2449,6 @@ IPC Nominal Density</description>
 <attribute name="PACKAGE" value="0201 Murata" x="16.5" y="-9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PRICE" value="None" x="16.5" y="-9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="16.5" y="-9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="17.05" y="-8.58" size="0.5" layer="27" rot="R180" align="top-left"/>
 </element>
 <element name="C9" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="GRM011R60J152KE01L_2_CAPC0201X13N" value="820pF(N.C.)" x="16.45" y="-6.25" smashed="yes" rot="R90" grouprefs="MCU">
 <attribute name="AVAILABILITY" value="In Stock" x="16.45" y="-6.25" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2497,7 +2459,6 @@ IPC Nominal Density</description>
 <attribute name="PACKAGE" value="0201 Murata" x="16.45" y="-6.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="16.45" y="-6.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="16.45" y="-6.25" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="16.87" y="-6.8" size="0.5" layer="27" rot="R90" align="top-left"/>
 </element>
 <element name="D2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="ESP32_C6_LIBRARY_5_SOD3716X135N" value="MBR0530" x="-5.8" y="-8.6" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="In Stock" x="-5.8" y="-8.6" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2510,7 +2471,6 @@ IPC Nominal Density</description>
 <attribute name="PRICE" value="None" x="-5.8" y="-8.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=179458&amp;manufacturer=ON Semiconductor&amp;part_name=MBR0530&amp;search_term=None" x="-5.8" y="-8.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MBR0530/Onsemi/view-part/?ref=snap" x="-5.8" y="-8.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="-5.8" y="-8.6" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="D3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="ESP32_C6_LIBRARY_3_SOT95P280X145-6N" value="USBLC6-2SC6Y" x="2.4" y="6" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="In Stock" x="2.4" y="6" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2522,7 +2482,6 @@ IPC Nominal Density</description>
 <attribute name="PACKAGE" value="SOT-23-6 STMicroelectronics" x="2.4" y="6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PRICE" value="None" x="2.4" y="6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/USBLC6-2SC6Y/STMicroelectronics/view-part/?ref=snap" x="2.4" y="6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="2.4" y="6" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="D4" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="ESP32_C6_LIBRARY_5_SOD3716X135N" value="MBR0530" x="-5.8" y="-12.2" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="-5.8" y="-12.2" size="1.778" layer="27" display="off"/>
@@ -2535,7 +2494,6 @@ IPC Nominal Density</description>
 <attribute name="PRICE" value="None" x="-5.8" y="-12.2" size="1.778" layer="27" display="off"/>
 <attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=179458&amp;manufacturer=ON Semiconductor&amp;part_name=MBR0530&amp;search_term=None" x="-5.8" y="-12.2" size="1.778" layer="27" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MBR0530/Onsemi/view-part/?ref=snap" x="-5.8" y="-12.2" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-5.8" y="-12.2" size="1.27" layer="27" align="center"/>
 </element>
 <element name="D5" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="ESP32_C6_LIBRARY_5_SOD3716X135N" value="MBR0530" x="-4.7" y="-5" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="-4.7" y="-5" size="1.778" layer="27" display="off"/>
@@ -2548,34 +2506,24 @@ IPC Nominal Density</description>
 <attribute name="PRICE" value="None" x="-4.7" y="-5" size="1.778" layer="27" display="off"/>
 <attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=179458&amp;manufacturer=ON Semiconductor&amp;part_name=MBR0530&amp;search_term=None" x="-4.7" y="-5" size="1.778" layer="27" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MBR0530/Onsemi/view-part/?ref=snap" x="-4.7" y="-5" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-4.7" y="-5" size="1.27" layer="27" align="center"/>
 </element>
 <element name="EPD_C1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="PERFECT_0402_0402" value="1uF/50V" x="-9.9" y="2.6" smashed="yes" rot="R180">
-<attribute name="VALUE" x="-9.265" y="4.005" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="EPD_C10" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="PERFECT_0402_0402" value="1uF/50V" x="-9.9" y="-6" smashed="yes" rot="R180">
-<attribute name="VALUE" x="-9.265" y="-4.595" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="EPD_C11" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="PERFECT_0402_0402" value="1uF/50V" x="-9" y="-9.7" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-7.595" y="-10.335" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="EPD_C12" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="PERFECT_0402_0402" value="1uF/50V" x="-9.9" y="-7.1" smashed="yes" rot="R180">
-<attribute name="VALUE" x="-9.265" y="-5.695" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="EPD_C2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="PERFECT_0402_0402" value="1uF/50V" x="-9.9" y="3.7" smashed="yes" rot="R180">
-<attribute name="VALUE" x="-9.265" y="5.105" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="EPD_C6" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="PERFECT_0402_0402" value="1uF/50V" x="-9.9" y="-2" smashed="yes" rot="R180">
-<attribute name="VALUE" x="-9.265" y="-0.595" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="EPD_C7" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="PERFECT_0402_0402" value="1uF/50V" x="-9.9" y="-3.1" smashed="yes" rot="R180">
-<attribute name="VALUE" x="-9.265" y="-1.695" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="EPD_C8" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="PERFECT_0402_0402" value="1uF/50V" x="-9.9" y="-4.2" smashed="yes" rot="R180">
-<attribute name="VALUE" x="-9.265" y="-2.795" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="EPD_C9" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="PERFECT_0402_0402" value="1uF/50V" x="-8" y="-4.1" smashed="yes" rot="R270">
-<attribute name="VALUE" x="-9.405" y="-3.465" size="0.8128" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="IC2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="DRV2605YZFR_BGA9C50P3X3_144X144X62" value="DRV2605YZFR" x="-18.4" y="10.1" smashed="yes" rot="R180">
 <attribute name="ARROW_PART_NUMBER" value="DRV2605YZFR" x="-18.4" y="10.1" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2585,7 +2533,6 @@ IPC Nominal Density</description>
 <attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="-18.4" y="10.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="DRV2605YZFR" x="-18.4" y="10.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-16.7" y="10.26" size="1" layer="25" rot="R270" align="center"/>
-<attribute name="VALUE" x="-18.4" y="7.56" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="IC1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="BQ25180YBGR_BGA8C40P2X4_100X155X50" value="BQ25180YBGR" x="18.8" y="13.9" smashed="yes" rot="R90">
 <attribute name="ARROW_PART_NUMBER" value="BQ25180YBGR" x="18.8" y="13.9" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2597,7 +2544,6 @@ IPC Nominal Density</description>
 <attribute name="MOUSER_PART_NUMBER" value="595-BQ25180YBGR" x="18.8" y="13.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ25180YBGR?qs=doiCPypUmgEWjAK%252BJAX6Tw%3D%3D" x="18.8" y="13.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="20.7" y="13.8" size="1" layer="25" rot="R90" align="center"/>
-<attribute name="VALUE" x="18.8" y="13.9" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
 <element name="IC3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="BMA423_BMA423" value="BMA421" x="4.1" y="-9.1" smashed="yes" rot="R90">
 <attribute name="ARROW_PART_NUMBER" value="BMA423" x="4.1" y="-9.1" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2609,7 +2555,6 @@ IPC Nominal Density</description>
 <attribute name="MOUSER_PART_NUMBER" value="262-BMA423" x="4.1" y="-9.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMA423?qs=HXFqYaX1Q2xC%252BSgeGoX3mg%3D%3D" x="4.1" y="-9.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="3.55" y="-7.2" size="1" layer="25" rot="R180" align="center"/>
-<attribute name="VALUE" x="4.35" y="-9.1" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
 <element name="IC9" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="RT6160AWSC_BGA15C40P3X5_140X230X60" value="RT6160AWSC" x="-8.7" y="14.1" smashed="yes" rot="R270">
 <attribute name="ARROW_PART_NUMBER" value="" x="-8.7" y="14.1" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2621,7 +2566,6 @@ IPC Nominal Density</description>
 <attribute name="MOUSER_PART_NUMBER" value="835-RT6160AWSC" x="-8.7" y="14.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Richtek/RT6160AWSC?qs=amGC7iS6iy%2FLd9PSoixZXQ%3D%3D" x="-8.7" y="14.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="-7.5" y="16.5" size="1" layer="25" align="center"/>
-<attribute name="VALUE" x="-8.7" y="14.1" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="J1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="503480-2400_5034802400" value="503480-2400" x="-13.9" y="0" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="FFC &amp; FPC Connectors 0.5mm FPC RA SMT Dual Contact 24Ckt" x="-13.9" y="0" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2631,7 +2575,6 @@ IPC Nominal Density</description>
 <attribute name="MOUSER_PART_NUMBER" value="538-503480-2400" x="-13.9" y="0" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Molex/503480-2400?qs=OAhjpuo3Vu7efIoxFh9AOw%3D%3D" x="-13.9" y="0" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="-13.7" y="4.2" size="1" layer="25" rot="R270" align="center"/>
-<attribute name="VALUE" x="-13.9" y="0" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="J2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="TC2030-IDC_TC2030IDC" value="TC2030-IDC" x="10.8" y="10.3" smashed="yes" rot="R90">
 <attribute name="ARROW_PART_NUMBER" value="" x="10.8" y="10.3" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2643,7 +2586,6 @@ IPC Nominal Density</description>
 <attribute name="MOUSER_PART_NUMBER" value="" x="10.8" y="10.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="10.8" y="10.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="10.80000625" y="14.849990625" size="1" layer="25" rot="R180" align="center"/>
-<attribute name="VALUE" x="10.8" y="11.25" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
 <element name="J4" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="KH-TYPE-C-16P_KINGHELM_KH-TYPE-C-16P" value="KH-TYPE-C-16P" x="0" y="16.2" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="Not in stock" x="0" y="16.2" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2655,20 +2597,15 @@ IPC Nominal Density</description>
 <attribute name="PACKAGE" value="None" x="0" y="16.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PRICE" value="None" x="0" y="16.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/KH-TYPE-C-16P/Kinghelm/view-part/?ref=snap" x="0" y="16.2" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="5.095" y="9.7" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="L1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="NORDIC_NRF_2_RESC0201_N" value="3.9nH" x="18.8" y="-9.2" smashed="yes" rot="R270">
-<attribute name="VALUE" x="16.8" y="-8.2" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="L3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="NORDIC_NRF_2_RESC0402_N" value="15nH" x="10.85" y="1.75" smashed="yes" grouprefs="MCU">
-<attribute name="VALUE" x="9.85" y="-0.25" size="1.27" layer="27"/>
 </element>
 <element name="L5" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="ESP32_C6_LIBRARY_2_IND_4828-WE-TPC_WRE" value="68uH" x="-3" y="2.4" smashed="yes" rot="R180">
 <attribute name="COPYRIGHT" value="Copyright (C) 2024 Ultra Librarian. All rights reserved." x="-3" y="2.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="744043680" x="-3" y="2.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFR_NAME" value="Wurth Electronics" x="-3" y="2.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="0.2712" y="6.845" size="1.27" layer="27" ratio="6" rot="R180"/>
-<attribute name="VALUE" x="-0.0012" y="-0.775" size="1.27" layer="27" ratio="6" rot="R180"/>
 </element>
 <element name="L7" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="FTC252012SR47MBCA" value="FTC252012SR47MBCA" x="-8.7" y="11.1" smashed="yes" rot="R180">
 <attribute name="CATEGORY_L1" value="" x="-8.7" y="11.1" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2685,7 +2622,6 @@ IPC Nominal Density</description>
 <element name="Q1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="ESP32_C6_LIBRARY_4_ESP32_C6_LIBRARY_4_ESP32_C6_LIBRARY_4_ESP32_C6_LIBRARY_4_ESP32_WROVER_SPARKFUN-DISCRETESEMI_SOT23-3" value="20V/4.2A/52mΩ/1.4W" x="-6.4" y="-1.5" smashed="yes">
 <attribute name="NAME" x="-6.351" y="-1" size="1" layer="25" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="TRAN-14388" x="-6.4" y="-1.5" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-4.749" y="-1.5" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="Q3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="ESP32_C6_LIBRARY_6_SOT65P210X110-3N" value="SI1308EDL-T1-GE3" x="-3.9" y="6.7" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="-3.9" y="6.7" size="1.778" layer="27" display="off"/>
@@ -2698,7 +2634,6 @@ IPC Nominal Density</description>
 <attribute name="PRICE" value="None" x="-3.9" y="6.7" size="1.778" layer="27" display="off"/>
 <attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=274603&amp;manufacturer=Vishay Siliconix&amp;part_name=SI1308EDL-T1-GE3&amp;search_term=None" x="-3.9" y="6.7" size="1.778" layer="27" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/SI1308EDL-T1-GE3/Vishay+Siliconix/view-part/?ref=snap" x="-3.9" y="6.7" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-3.9" y="6.7" size="1.27" layer="27" align="center"/>
 </element>
 <element name="R17" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="ERA-1AEB3401C_0201" value="3.3K" x="-9.7" y="16.1" smashed="yes" rot="R180">
 </element>
@@ -2806,7 +2741,6 @@ IPC Nominal Density</description>
 </element>
 <element name="U1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="NORDIC_NRF_4_AQFN50P700X700X85_HS-74N" value="NRF52840_QF" x="12.5" y="-5.4" smashed="yes" grouprefs="MCU">
 <attribute name="NAME" x="10" y="-1.4" size="0.254" layer="25"/>
-<attribute name="VALUE" x="10" y="-10.4" size="1" layer="27"/>
 </element>
 <element name="U3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="ESP32_C6_LIBRARY_SON50P200X200X80-9N" value="MAX17048G+T10" x="18" y="6.5" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="In Stock" x="18" y="6.5" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2819,15 +2753,12 @@ IPC Nominal Density</description>
 <attribute name="PRICE" value="None" x="18" y="6.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=329239&amp;manufacturer=Analog Devices&amp;part_name=MAX17048G+T10&amp;search_term=None" x="18" y="6.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MAX17048G+T10/Analog+Devices/view-part/?ref=snap" x="18" y="6.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="16.618" y="8.31" size="1.27" layer="27" rot="R270" align="top-left"/>
 </element>
 <element name="X1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="NORDIC_NRF_BT-XTAL_2016_N" value="32MHz" x="16.5" y="-0.3" smashed="yes" rot="R90" grouprefs="MCU">
 <attribute name="NAME" x="16.4" y="1.1" size="1" layer="25"/>
-<attribute name="VALUE" x="19.4" y="-3" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="X2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="NORDIC_NRF_1_XTAL_3215_N" value="32.768kHz" x="6.8" y="-3.5" smashed="yes" rot="R270" grouprefs="MCU">
 <attribute name="NAME" x="5.7" y="-1.6" size="1" layer="25"/>
-<attribute name="VALUE" x="4.2" y="-0.4" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C13" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="GRM011R60J152KE01L_2_CAPC0201X13N" value="N.C." x="12.79" y="-1.33" smashed="yes" grouprefs="MCU">
 <attribute name="AVAILABILITY" value="In Stock" x="12.79" y="-1.33" size="1.778" layer="27" display="off"/>
@@ -2838,13 +2769,10 @@ IPC Nominal Density</description>
 <attribute name="PACKAGE" value="0201 Murata" x="12.79" y="-1.33" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="12.79" y="-1.33" size="1.778" layer="27" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="12.79" y="-1.33" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="12.24" y="-1.75" size="0.5" layer="27" align="top-left"/>
 </element>
 <element name="L2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="NORDIC_NRF_2_RESC0603_N" value="10uH" x="10.1" y="-0.4" smashed="yes" rot="R90">
-<attribute name="VALUE" x="12.1" y="-1.4" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="EPD_C5" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="PERFECT_0402_0402" value="1uF/50V" x="-9.7" y="-0.1" smashed="yes" rot="R270">
-<attribute name="VALUE" x="-11.105" y="0.535" size="0.8128" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="SW_ENT" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="2025-10-22_07-23-44_LIBRARY_SW_EVP-AKE31A_PAN" value="2025-10-22_07-23-44_LIBRARY_EVP-AKE31ASW_EVP-AKE31A_PAN" x="0" y="-14.2" smashed="yes" rot="R180">
 <attribute name="COPYRIGHT" value="Copyright (C) 2025 Ultra Librarian. All rights reserved." x="0" y="-14.2" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2853,8 +2781,6 @@ IPC Nominal Density</description>
 <attribute name="DIGI-KEY_PART_NUMBER_3" value="P123437DKR-ND" x="0" y="-14.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Panasonic" x="0" y="-14.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="EVP-AKE31A" x="0" y="-14.2" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="1.8712" y="-11.6935" size="0.6096" layer="27" ratio="6" rot="R180"/>
-<attribute name="VALUE" x="1.7288" y="-12.5935" size="1.27" layer="27" ratio="6" rot="R180"/>
 </element>
 <element name="SW_DN" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="2025-10-22_07-23-44_LIBRARY_SW_EVP-AKE31A_PAN" value="2025-10-22_07-23-44_LIBRARY_EVP-AKE31ASW_EVP-AKE31A_PAN" x="11" y="-14.2" smashed="yes" rot="R180">
 <attribute name="COPYRIGHT" value="Copyright (C) 2025 Ultra Librarian. All rights reserved." x="11" y="-14.2" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2863,8 +2789,6 @@ IPC Nominal Density</description>
 <attribute name="DIGI-KEY_PART_NUMBER_3" value="P123437DKR-ND" x="11" y="-14.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Panasonic" x="11" y="-14.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="EVP-AKE31A" x="11" y="-14.2" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="12.4712" y="-11.6935" size="0.6096" layer="27" ratio="6" rot="R180"/>
-<attribute name="VALUE" x="12.7288" y="-12.5935" size="1.27" layer="27" ratio="6" rot="R180"/>
 </element>
 <element name="SW_UP" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.g1moY5YyTxaRCNi2YG0f_g" package="2025-10-22_07-23-44_LIBRARY_SW_EVP-AKE31A_PAN" value="2025-10-22_07-23-44_LIBRARY_EVP-AKE31ASW_EVP-AKE31A_PAN" x="-11" y="-14.2" smashed="yes" rot="R180">
 <attribute name="COPYRIGHT" value="Copyright (C) 2025 Ultra Librarian. All rights reserved." x="-11" y="-14.2" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2873,8 +2797,6 @@ IPC Nominal Density</description>
 <attribute name="DIGI-KEY_PART_NUMBER_3" value="P123437DKR-ND" x="-11" y="-14.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Panasonic" x="-11" y="-14.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="EVP-AKE31A" x="-11" y="-14.2" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="-9.5288" y="-11.6935" size="0.6096" layer="27" ratio="6" rot="R180"/>
-<attribute name="VALUE" x="-9.2712" y="-12.5935" size="1.27" layer="27" ratio="6" rot="R180"/>
 </element>
 </elements>
 <signals>
@@ -3118,15 +3040,6 @@ IPC Nominal Density</description>
 <wire x1="12" y1="10.052" x2="12" y2="10" width="0.15" layer="1"/>
 <wire x1="11.435" y1="11.888" x2="11.688" y2="11.888" width="0.15" layer="1"/>
 <wire x1="11.688" y1="11.888" x2="12.2" y2="12.4" width="0.15" layer="1"/>
-<polygon width="0.2" layer="2" spacing="1.27" pour="solid" thermals="yes">
-<vertex x="-29.358578125" y="-25.9"/>
-<vertex x="37.558578125" y="-25.9"/>
-<vertex x="38.4" y="-25.058578125"/>
-<vertex x="38.4" y="18.258578125"/>
-<vertex x="35.158578125" y="21.5"/>
-<vertex x="-27.903740625" y="21.5"/>
-<vertex x="-29.698409375" y="-25.56016875"/>
-</polygon>
 <wire x1="15.25" y1="-3.9" x2="14.6" y2="-3.9" width="0.15" layer="1"/>
 <wire x1="14.6" y1="-3.9" x2="14.3" y2="-3.6" width="0.15" layer="1"/>
 <wire x1="11" y1="-2.65" x2="11" y2="-3.3" width="0.15" layer="1"/>
@@ -3170,17 +3083,20 @@ IPC Nominal Density</description>
 <wire x1="19.95" y1="6.25" x2="21.67" y2="6.25" width="0.3" layer="16"/>
 <via x="19.95" y="6.25" extent="1-16" drill="0.35" alwaysstop="yes">
 </via>
-<polygon width="0.1524" layer="1" spacing="1.27" pour="solid" orphans="yes" thermals="yes" rank="2">
-<vertex x="-24.2684375" y="-23.4238"/>
-<vertex x="27.5684375" y="-23.4238"/>
-<vertex x="29.1238" y="-21.8684375"/>
-<vertex x="29.1238" y="19.9684375"/>
-<vertex x="27.6684375" y="21.4238"/>
-<vertex x="-24.226909375" y="21.4238"/>
-<vertex x="-26.022475" y="-21.6697625"/>
-</polygon>
 <via x="-21.25" y="9.95" extent="1-16" drill="0.3" alwaysstop="yes">
 </via>
+<polygon width="0.1524" layer="1" spacing="1.27" pour="solid" orphans="yes" thermals="yes" rank="2">
+<vertex x="-23.1238" y="-18.2238"/>
+<vertex x="23.0238" y="-18.2238"/>
+<vertex x="23.0238" y="17.6238"/>
+<vertex x="-23.1238" y="17.6238"/>
+</polygon>
+<polygon width="0.1524" layer="2" spacing="1.27" pour="solid" orphans="yes" thermals="yes" rank="2">
+<vertex x="-23.1238" y="-18.2238"/>
+<vertex x="23.0238" y="-18.2238"/>
+<vertex x="23.0238" y="17.6238"/>
+<vertex x="-23.1238" y="17.6238"/>
+</polygon>
 </signal>
 <signal name="EPD_CS">
 <contactref element="J1" pad="12"/>
@@ -3466,15 +3382,6 @@ IPC Nominal Density</description>
 <wire x1="14.1" y1="-1.5" x2="13.7" y2="-1.1" width="0.3" layer="1"/>
 <via x="13.7" y="-1.1" extent="1-16" drill="0.35" alwaysstop="yes">
 </via>
-<polygon width="0.2" layer="15" spacing="1.27" pour="solid" thermals="yes">
-<vertex x="-26.358578125" y="-23.1"/>
-<vertex x="33.758578125" y="-23.1"/>
-<vertex x="34.9" y="-21.958578125"/>
-<vertex x="34.9" y="19.858578125"/>
-<vertex x="32.958578125" y="21.8"/>
-<vertex x="-26.401565625" y="21.8"/>
-<vertex x="-27.09934375" y="-22.359234375"/>
-</polygon>
 <wire x1="2.35" y1="-9.5" x2="2.33" y2="-9.48" width="0.2" layer="1"/>
 <wire x1="2.33" y1="-9.48" x2="2.33" y2="-9.1" width="0.2" layer="1"/>
 <wire x1="2.33" y1="-9.1" x2="2.33" y2="-9" width="0.2" layer="1"/>
@@ -3516,6 +3423,12 @@ IPC Nominal Density</description>
 <wire x1="-9.7" y1="15.825" x2="-10.325" y2="15.825" width="0.15" layer="1"/>
 <wire x1="-10.325" y1="15.825" x2="-10.4" y2="15.9" width="0.15" layer="1"/>
 <wire x1="-10.7" y1="15.6" x2="-10.4" y2="15.9" width="0.15" layer="1"/>
+<polygon width="0.1524" layer="15" spacing="1.27" pour="solid" orphans="yes" thermals="yes" rank="2">
+<vertex x="-23.1238" y="-18.2238"/>
+<vertex x="23.0238" y="-18.2238"/>
+<vertex x="23.0238" y="17.6238"/>
+<vertex x="-23.1238" y="17.6238"/>
+</polygon>
 </signal>
 <signal name="ALERT">
 <contactref element="U3" pad="5"/>
@@ -4459,6 +4372,15 @@ IPC Nominal Density</description>
 <approved hash="6,1,e5e37a855533ec67"/>
 <approved hash="6,1,9db4da7d38b83e47"/>
 <approved hash="6,1,2738efda46db09ca"/>
+<approved hash="19,1,b2b3b28c36fc36c3"/>
+<approved hash="19,1,434743c485c28541"/>
+<approved hash="19,1,2a402a84c280c244"/>
+<approved hash="19,1,4bfe4ae142e543fa"/>
+<approved hash="19,1,66c868454c4142cc"/>
+<approved hash="19,1,48524899409d4056"/>
+<approved hash="19,1,2ac82444cc40c2cc"/>
+<approved hash="19,1,48da4999419d40de"/>
+<approved hash="19,1,c000c20382078004"/>
 </errors>
 </board>
 </drawing>
