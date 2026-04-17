@@ -23,31 +23,33 @@ The MCU chosen is **nRF52840**. It manages:
 
 ## MCU Pinout Mapping
 
-| Peripheral | Pin(s) | Function | Justification |
+| Peripheral | Pin(s) | Function | Description |
 | :--- | :--- | :--- | :--- |
-| **I2C SDA** | P0.06 | Data | Shared bus for sensors and power ICs. |
-| **I2C SCL** | P0.07 | Clock | Shared bus for sensors and power ICs. |
-| **SPI SCK** | P0.02 | Clock | Dedicated high-speed SPI for E-Paper. |
-| **SPI MOSI** | P0.03 | Data Out | Dedicated high-speed SPI for E-Paper. |
-| **SPI CS** | P0.05 | Chip Sel | Dedicated high-speed SPI for E-Paper. |
-| **EPD DC** | P0.15 | Data/Cmd | Required for display command logic. |
-| **EPD RST** | P0.16 | Reset | Hardware reset for display controller. |
-| **EPD BUSY** | P0.17 | Input | MCU checks this before display updates. |
-| **EPD GATE** | P1.01 | PFET Ctrl | Cuts display power. |
-| **USB D+ / D-** | D+ / D- | USB Data | Differential pair for firmware/recovery. |
-| **VBUS** | VBUS | Detect | Used by MCU to detect USB cable attachment. |
-| **ANT1** | ANT | RF Out | 50-ohm matched trace to 2.4GHz chip antenna. |
-| **X1** | XC1 / XC2 | 32MHz | High-speed clock for Radio/System. |
-| **X2** | P0.00 / P0.01 | 32.768kHz | Low-power clock for RTC and Sleep timing. |
-| **IMU INT1** | P0.08 | Wake-up | Primary IMU interrupt. |
-| **IMU INT2** | P1.08 | Gesture | Secondary IMU interrupt for advanced gestures/events. |
-| **PMIC INT** | P0.11 | Charger | Signals charging status changes. |
-| **Fuel Alert** | P0.10 | Low Batt | Triggers when battery hits a critical % threshold. |
-| **Haptic EN** | P0.12 | Enable | Power control for the haptic driver. |
-| **Button Up** | P0.13 | Input | Navigation (Active Low). |
-| **Button Dn** | P1.02 | Input | Navigation (Active Low). |
-| **Button Ent** | P0.14 | Input | Enter / Confirm (Active Low). |
-| **SWD Bus** | SWDIO/CLK | Debug | Programming via Tag-Connect TC2030. |
+| **I2C SDA** | P0.06 | Data | Shared bus for sensors and power ICs |
+| **I2C SCL** | P0.07 | Clock | Shared bus for sensors and power ICs |
+| **SPI SCK** | P0.02 | Clock | Dedicated high-speed SPI for E-Paper |
+| **SPI MOSI** | P0.03 | Data Out | Dedicated high-speed SPI for E-Paper |
+| **SPI CS** | P0.05 | Chip Sel | Dedicated high-speed SPI for E-Paper |
+| **EPD DC** | P0.15 | Data/Cmd | Required for display command logic |
+| **EPD RST** | P0.16 | Reset | Hardware reset for display controller |
+| **EPD BUSY** | P0.17 | Input | MCU checks this before display updates |
+| **EPD GATE** | P1.01 | PFET Ctrl | Cuts display power |
+| **USB D+ / D-** | D+ / D- | USB Data | Differential pair for firmware/recovery |
+| **VBUS** | VBUS | Detect | Used by MCU to detect USB cable attachment |
+| **ANT1** | ANT | RF Out | 50-ohm matched trace to 2.4GHz chip antenna |
+| **X1** | XC1 / XC2 | 32MHz | High-speed clock for Radio/System |
+| **X2** | P0.00 / P0.01 | 32.768kHz | Low-power clock for RTC and Sleep timing |
+| **IMU INT1** | P0.08 | Wake-up | Primary IMU interrupt |
+| **IMU INT2** | P1.08 | Gesture | Secondary IMU interrupt for advanced gestures/events |
+| **PMIC INT** | P0.11 | Charger | Signals charging status changes |
+| **Fuel Alert** | P0.10 | Low Batt | Triggers when battery hits a critical % threshold |
+| **Haptic EN** | P0.12 | Enable | Power control for the haptic driver |
+| **Button Up** | P0.13 | Input | Navigation (Active Low) |
+| **Button Dn** | P1.02 | Input | Navigation (Active Low) |
+| **Button Ent** | P0.14 | Input | Enter / Confirm (Active Low) |
+| **SWD Bus** | SWDIO/CLK | Debug | Programming via Tag-Connect TC2030 |
+| **RESET** | P0.18 | Reset | System reset |
+| **SWO** | P1.00 | Debug | SWO test pad |
 
 ## Design Log
 
